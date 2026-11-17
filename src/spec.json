@@ -1,0 +1,273 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Dashboard per osservare i consumi degli edifici pubblici, confrontare i valori mensili e aggiornare le rilevazioni. I dati sono interamente inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Andamento mensile dei consumi e sintesi delle rilevazioni registrate.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "18,4 MWh"
+        },
+        {
+          "label": "Variazione sul mese precedente",
+          "value": "−6,2%"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "12"
+        },
+        {
+          "label": "Rilevazioni aggiornate",
+          "value": "10"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Consumo elettrico (MWh)",
+        "Consumo termico (MWh)",
+        "Edifici rilevati"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "12,8",
+          "9,4",
+          "12"
+        ],
+        [
+          "Febbraio",
+          "11,6",
+          "8,7",
+          "12"
+        ],
+        [
+          "Marzo",
+          "10,9",
+          "7,2",
+          "11"
+        ],
+        [
+          "Aprile",
+          "9,8",
+          "5,8",
+          "12"
+        ],
+        [
+          "Maggio",
+          "8,7",
+          "3,9",
+          "12"
+        ],
+        [
+          "Giugno",
+          "9,2",
+          "2,8",
+          "12"
+        ],
+        [
+          "Luglio",
+          "10,4",
+          "2,1",
+          "11"
+        ],
+        [
+          "Agosto",
+          "9,6",
+          "2,3",
+          "12"
+        ],
+        [
+          "Settembre",
+          "9,1",
+          "3,8",
+          "12"
+        ],
+        [
+          "Ottobre",
+          "10,7",
+          "6,1",
+          "12"
+        ],
+        [
+          "Novembre",
+          "11,9",
+          "8,0",
+          "11"
+        ],
+        [
+          "Dicembre",
+          "12,5",
+          "9,1",
+          "12"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici",
+      "description": "Elenco filtrabile degli edifici e dei relativi consumi più recenti.",
+      "metrics": [
+        {
+          "label": "Edifici in elenco",
+          "value": "6"
+        },
+        {
+          "label": "Consumo complessivo",
+          "value": "18,4 MWh"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo elettrico (MWh)",
+        "Consumo termico (MWh)",
+        "Ultimo aggiornamento"
+      ],
+      "rows": [
+        [
+          "Palazzo delle Vele",
+          "Consorzio Lumo",
+          "Borgo Azzurro",
+          "3,8",
+          "2,1",
+          "12/06/2025"
+        ],
+        [
+          "Biblioteca delle Nubi",
+          "Fondazione Vela",
+          "Piana dei Gelsi",
+          "2,6",
+          "1,4",
+          "12/06/2025"
+        ],
+        [
+          "Centro Civico Lume",
+          "Rete Nubi",
+          "Valle Chiara",
+          "2,2",
+          "1,9",
+          "11/06/2025"
+        ],
+        [
+          "Archivio delle Trame",
+          "Cooperativa Limo",
+          "Bosco Quieto",
+          "1,8",
+          "1,3",
+          "10/06/2025"
+        ],
+        [
+          "Scuola delle Rive",
+          "Consorzio Velo",
+          "Piana dei Gelsi",
+          "4,1",
+          "3,2",
+          "12/06/2025"
+        ],
+        [
+          "Sala dei Tigli",
+          "Fondazione Luma",
+          "Borgo Azzurro",
+          "3,9",
+          "2,5",
+          "09/06/2025"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo elettrico (MWh)",
+        "Consumo termico (MWh)",
+        "Ultimo aggiornamento"
+      ]
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Rilevazioni",
+      "description": "Ricerca e filtro delle misure mensili; il modulo consente di aggiungere una rilevazione.",
+      "metrics": [
+        {
+          "label": "Rilevazioni registrate",
+          "value": "6"
+        },
+        {
+          "label": "Da verificare",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Tipo di consumo",
+        "Valore (MWh)",
+        "Stato",
+        "Data rilevazione"
+      ],
+      "rows": [
+        [
+          "Palazzo delle Vele",
+          "Giugno",
+          "Elettrico",
+          "3,8",
+          "Verificata",
+          "12/06/2025"
+        ],
+        [
+          "Biblioteca delle Nubi",
+          "Giugno",
+          "Termico",
+          "1,4",
+          "Verificata",
+          "12/06/2025"
+        ],
+        [
+          "Centro Civico Lume",
+          "Giugno",
+          "Elettrico",
+          "2,2",
+          "Da verificare",
+          "11/06/2025"
+        ],
+        [
+          "Archivio delle Trame",
+          "Giugno",
+          "Termico",
+          "1,3",
+          "Verificata",
+          "10/06/2025"
+        ],
+        [
+          "Scuola delle Rive",
+          "Giugno",
+          "Elettrico",
+          "4,1",
+          "Verificata",
+          "12/06/2025"
+        ],
+        [
+          "Sala dei Tigli",
+          "Giugno",
+          "Termico",
+          "2,5",
+          "Verificata",
+          "09/06/2025"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Mese",
+        "Tipo di consumo",
+        "Valore (MWh)",
+        "Stato",
+        "Data rilevazione"
+      ]
+    }
+  ]
+}
